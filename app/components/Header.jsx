@@ -11,7 +11,7 @@ const Header = () => {
         <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
       </div>
       <h3 className="flex items-end gap-2 text-xl md:text-2x1 mb-3 font-Ovo">
-        Hi! I'm Wadud shuvro
+        Hi! I&apos;m Wadud shuvro
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </h3>
       <h1 className="text-3x1 sm:text-6xl lg:text-[66px] font-Ovo">
