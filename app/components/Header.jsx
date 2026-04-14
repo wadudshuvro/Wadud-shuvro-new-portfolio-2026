@@ -18,7 +18,7 @@ const Header = () => {
         frontend web developer <br />
         based in Bangladesh.
       </h1>
-      <p className="max-w-2xl mx-auto font-Ovo">
+      <p className="max-w-2xl mx-auto font-Ovo text-black/70 dark:text-white/70">
         I am a frontend developer from Banglades with 4 years of experience in
         multiple companies like Servicengine, SJ Innovation.
       </p>
@@ -34,8 +34,7 @@ const Header = () => {
         <a
           href="/wadud-resume.pdf"
           download
-          className="px-10 py-3 border rounded-full border-gray-500 flex
-               items-center gap-2"
+          className="px-10 py-3 border rounded-full border-gray-500 dark:border-white/50 flex items-center gap-2 hover:bg-lightHover dark:hover:bg-darkHover duration-300"
         >
           my resume <Image src={assets.download_icon} alt="" className="w-4" />
         </a>

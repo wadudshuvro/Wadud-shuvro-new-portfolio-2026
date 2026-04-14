@@ -28,23 +28,32 @@ const About = () => {
               <li
                 className="border-[0.5px] border-gray-400 rounded-xl p-6
                 cursor-pointer
-                hover:bg-lightHover hover:-translate-y-1 hover:shadow-black duration-500"
+                hover:bg-lightHover dark:hover:bg-darkHover hover:-translate-y-1 hover:shadow-black dark:hover:shadow-white duration-500"
                 key={index}
               >
-                <Image src={icon} alt={title} className="w-7 mt-3" />
-                <h3 className="my-4 font-semibold text-gray-700">{title}</h3>
-                <p className="text-gray-600">{description}</p>
+                <Image src={icon} alt={title} className="w-7 mt-3 dark:hidden" />
+                <Image
+                  src={iconDark}
+                  alt={title}
+                  className="w-7 mt-3 hidden dark:block"
+                />
+                <h3 className="my-4 font-semibold text-gray-700 dark:text-white/90">
+                  {title}
+                </h3>
+                <p className="text-gray-600 dark:text-white/70">{description}</p>
               </li>
             ))}
           </ul>
-          <h4 className="my-6 text-gray-700 font-Ovo">Tolls I used </h4>
+          <h4 className="my-6 text-gray-700 dark:text-white/90 font-Ovo">
+            Tolls I used{' '}
+          </h4>
           <ul className="flex items-center gap-3 xm:gap-5">
             {toolsData.map((tool, index) => (
               <li
                 className="flex items-center justify-center
                 w-12 sm:w-14 aspect-square border border-gray-400
                 rounded-lg cursor-pointer
-                hover:-translate-y-1  duration-500"
+                hover:-translate-y-1 duration-500 dark:bg-white/5"
                 key={index}
               >
                 <Image

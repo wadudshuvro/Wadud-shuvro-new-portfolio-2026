@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const config = {
+  darkMode: 'class',
   // Assign the object to a variable
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -11,7 +12,7 @@ const config = {
       colors: {
         lightHover: '#fcf4ff',
         darkHover: '#2a004a',
-        darkTheme: '#11001F',
+        darkTheme: '#090E1A',
       },
       fontFamily: {
         Outfit: ['Outfit', 'sans-serif'],
