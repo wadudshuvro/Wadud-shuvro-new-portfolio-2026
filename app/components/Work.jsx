@@ -9,10 +9,10 @@ const Work = () => {
       <h4 className="scroll-behavior: smooth text-center mb-2 text-lg font-Ovo">
         My portfolio
       </h4>
-      <h2 className="text-center text-5xl font-Ovo">My lated work</h2>
+      <h2 className="text-center text-5xl font-Ovo">My latest work</h2>
       <p className="text-center max-w-2x1 mx-auto mt-5 mb-12 font-Ovo">
         Welcome to my web development portfolio! Explore a collection of proj
-        ects showcasing my expertise in front-end development.
+        ets showcasing my expertise in front-end development.
       </p>
       <div className="grid grid-cols-auto my-10 gap-5">
         {workData.map((project, index) => (
