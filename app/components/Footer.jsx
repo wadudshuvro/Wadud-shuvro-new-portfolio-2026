@@ -2,6 +2,8 @@ import { assets } from '@/assets/assets';
 import Image from 'next/image'; // Import Image if it's from next/image
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="mt-20">
       <div className="text-center">
@@ -27,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 dark:border-white/20 mx-[10%] mt-12 py-6">
-        <p>© 2025 Wadud shuvro. All rights reserved.</p>
+        <p>© {currentYear} Wadud shuvro. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
             <a
@@ -50,10 +52,10 @@ const Footer = () => {
           <li>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/wadud-shuvro/"
+              href="https://www.facebook.com/wadud.shuvro"
               rel="noreferrer"
             >
-              Twitter
+              Facebook
             </a>
           </li>
         </ul>
