@@ -153,7 +153,7 @@ const Services = () => {
               className="flex items-center gap-2 text-sm mt-5 dark:text-white/80"
             >
               Read more
-              <Image src={assets.right_arrow} alt="read more" className="w-4" />
+              <Image src={assets.right_arrow} alt="" className="w-4" />
             </a>
           </div>
         ))}

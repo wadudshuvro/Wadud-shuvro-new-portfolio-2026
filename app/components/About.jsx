@@ -12,13 +12,13 @@ const About = () => {
         <div className="W-64 sm:w-80 rounded-3x1 max-w-none">
           <Image
             src={assets.user_image}
-            alt="user"
+            alt="Wadud Shuvro - about section portrait"
             className="w-full rounded-3xl"
           />
         </div>
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am an experienced Frontend Developer with 4 years of
+            I am an experienced Frontend Developer with 6 years of
             professional experience. Throughout my career, I have had the
             privilege of collaborating with prestigious organizations,
             contributing to their success and growth.
@@ -31,10 +31,14 @@ const About = () => {
                 hover:bg-lightHover dark:hover:bg-darkHover hover:-translate-y-1 hover:shadow-black dark:hover:shadow-white duration-500"
                 key={index}
               >
-                <Image src={icon} alt={title} className="w-7 mt-3 dark:hidden" />
+                <Image
+                  src={icon}
+                  alt={`Wadud Shuvro - ${title} icon`}
+                  className="w-7 mt-3 dark:hidden"
+                />
                 <Image
                   src={iconDark}
-                  alt={title}
+                  alt={`Wadud Shuvro - ${title} icon dark`}
                   className="w-7 mt-3 hidden dark:block"
                 />
                 <h3 className="my-4 font-semibold text-gray-700 dark:text-white/90">
@@ -58,7 +62,7 @@ const About = () => {
               >
                 <Image
                   src={tool}
-                  alt={`Tool ${index + 1}`}
+                  alt={`Wadud Shuvro - development tool ${index + 1}`}
                   className="w-5 sm:w-7"
                 />
               </li>

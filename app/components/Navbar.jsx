@@ -73,10 +73,14 @@ const Navbar = () => {
         }`}
       >
         <a href="#top">
-          <Image src={assets.logo} alt="Logo" className="w-28 cursor-pointer mr-14 dark:hidden" />
+          <Image
+            src={assets.logo}
+            alt="Wadud Shuvro - brand logo"
+            className="w-28 cursor-pointer mr-14 dark:hidden"
+          />
           <Image
             src={assets.logo_dark2}
-            alt="Logo"
+            alt="Wadud Shuvro - brand logo dark"
             className="w-28 cursor-pointer mr-14 hidden dark:block"
           />
         </a>
